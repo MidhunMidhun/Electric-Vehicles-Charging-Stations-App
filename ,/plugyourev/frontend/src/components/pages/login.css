@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("/public/images/login.jpg") ;
+    background-size: cover;   
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+}
+input{
+    background: rgba(255, 255, 255, 0.15);
+    width: 300px;
+    height: 3rem;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    border-radius: 2rem;
+    padding: 1rem;
+    margin-bottom: 30px;
+    border: none;
+    color: #3c354e;
+    font-size: 1rem;
+    font-weight: bold;
+    outline: none;
+}
+input:focus{
+    display: inline-block;
+    box-shadow: 0 0 0 0.2rem #b9abe0;
+    backdrop-filter: blur(12rem);
+    border-radius: 2rem;
+}
+
+input::placeholder{
+    color: #b9abe099;
+    font-weight: 100;
+    font-size: 1rem;
+}
+
+.signin{
+    display: block;
+    width: 300px;
+    height: 3rem;
+    background-color: #3c354e;
+    border-radius: 2rem;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+    font-size: 20px;
+    color: #b9abe0;
+}
