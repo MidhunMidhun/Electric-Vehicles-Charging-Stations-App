@@ -10,6 +10,12 @@ function Adminmap() {
   const [pins, setPins] = useState([]);
   const [currentPlaceId, setCurrentPlaceId] = useState(null);
   const [newPlace, setNewPlace] = useState(null);
+  const [title, setTitle] = useState(null);
+  const [city, setCity] = useState(null);
+  const [charger_type, setCharger_type] = useState(null);
+  const [ports, setPorts] = useState(null);
+  const [price, setPrice] = useState(null);
+  const [rating, setRating] = useState(0);
   const [viewport, setViewport] = useState({
     longitude: 76.93792505109217,
     latitude: 8.525794306303943,        
@@ -46,11 +52,33 @@ function Adminmap() {
     });
     console.log(newPlace);
   };
+
+  const handleSubmit = async (e) =>{
+    e.preventDefault();
+    const newPin={
+      title,
+      city,
+      charger_type,
+      ports,
+      price,
+      rating,
+      lat:newPlace.lat,
+      long:newPlace.long,
+    }
+
+    try{
+      const res= await axios.post("/pins",newPin);
+      setPins([...pins,res.data]);
+      setNewPlace(null);
+    }catch(err){
+      console.log(err);
+    }
+  }
   return (
     <div>
       <Map
       
-        mapboxAccessToken="pk.eyJ1IjoibW1pZGh1biIsImEiOiJjbDlweHZ3eHAwM2kyM29sNzhpb3g0cjJoIn0.k7tqrkmM20x27lx3bXZ4Jw"
+        mapboxAccessToken="pk.eyJ1IjoibW1pZGh1biIsImEiOiJjbGFxYTIxODcxNDB0M3ZucGlmcWp3cHpuIn0.4ekFwyhXAkUt-zYu9ePDpQ"
         initialViewState={{
           longitude: 76.93792505109217,
           latitude: 8.525794306303943,        
@@ -101,11 +129,7 @@ function Adminmap() {
               <p>{p.price}</p>
               <label>Rating</label>
               <div className='stars'>
-                <Star className='star'/>
-                <Star className='star'/>
-                <Star className='star'/>
-                <Star className='star'/>
-                <Star className='star'/>
+                {Array(p.rating).fill(<Star className="star" />)}
               </div>
             </div>
           </Popup>
@@ -118,26 +142,44 @@ function Adminmap() {
             latitude={newPlace.lat}
             closeButton={true}
             closeOnClick={false}
-            onClose={() => setNewPlace(null)}
+            onClose={() =>  setNewPlace(null)}
             anchor="left"
       >
-        <div>
-          <form >
-          {/* onSubmit={handleSubmit} */}
-            <label className='title'>Title</label>
-            <input
-              placeholder="Enter a title"
+        <div className='addpopup'>
+          <form onSubmit={handleSubmit}>
+                      
+            <input className='input'
+              placeholder="Enter the title"
               autoFocus
-              // onChange={(e) => setTitle(e.target.value)}
+              onChange={(e) => setTitle(e.target.value)}
             />
-            <label>Description</label>
-            <textarea
-              placeholder="Say us something about this place."
-              // onChange={(e) => setDesc(e.target.value)}
+            
+            <input className='input'
+              placeholder="Enter city"
+              autoFocus
+              onChange={(e) => setCity(e.target.value)}
+            />
+            
+            <input className='input'
+              placeholder="Enter charger types"
+              autoFocus
+              onChange={(e) => setCharger_type(e.target.value)}
+            />
+           
+            <input className='input'
+              placeholder="Enter ports"
+              autoFocus
+              onChange={(e) => setPorts(e.target.value)}
+            />
+            
+            <input className='input'
+              placeholder="Enter price"
+              autoFocus
+              onChange={(e) => setPrice(e.target.value)}
             />
             <label>Rating</label>
-            <select >
-            {/* onChange={(e) => setStar(e.target.value)} */}
+            <select className='rating'
+            onChange={(e) => setRating(e.target.value)} >
                     <option value="1">1</option>
                     <option value="2">2</option>
                     <option value="3">3</option>
