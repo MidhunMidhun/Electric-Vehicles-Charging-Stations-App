@@ -1,12 +1,45 @@
-import React from 'react'
-
+import React ,{useRef,useState,useEffect}from 'react';
 import styled from 'styled-components';
 import './login.css'
 import './input'
 import { BrowserRouter as Router, Switch, Route,Link } from 'react-router-dom';
 import Navbar from '../Navbar';
+import axios, * as others from 'axios';
+function Login() {
 
-function login() {
+
+  const [username, setUsername] = useState("");
+  const [password, setPassword] = useState("");
+ const handleSignin = (e) => {
+   e.preventDefault();
+   let data = {username: username, password: password}
+   let result = axios.post("http://localhost:8800/login", data).then(res => {
+    if (res.data.loggedin == true) {
+      console.log("Login success")
+      window.location.href="/Adminmap";
+    }
+    else {
+      console.log("Login fail")
+      window.alert("Wrong username/password")
+    }
+   })
+ }
+ 
+//  const userRef = useRef();
+//  const errRef = useRef();
+
+//   const [user, setUser] = useState('');
+//   const [pwd, setPwd] = useState('');
+//   const [errMsg, setErrMsg] = useState('');
+//   const [success, setSuccess] = useState(false);
+
+//   useEffect(() => {
+//       userRef.current.focus();
+//   }, [])
+
+//   useEffect(() => {
+//       setErrMsg('');
+//   }, [user, pwd])
   
   return (
     <>
@@ -15,12 +48,14 @@ function login() {
         <WelcomeText>Admin Login</WelcomeText>
         <InputContainer>
         
-          <input type="text" placeholder="Username" />
-          <input type="password" placeholder="Password" />
+          <input required type="text" placeholder="Username"  onChange={(e) => setUsername(e.target.value)}/>
+          <input required type="password" placeholder="Password" onChange={(e) => setPassword(e.target.value)} />
         
         </InputContainer>        
           <Link to="./adminmap">
-          <button  className='signin' type="submit">SIGN IN</button>
+          <button  className='signin' type="submit"
+          onClick={handleSignin}
+          >SIGN IN</button>
           </Link>
     </MainContainer>
     </>
@@ -91,4 +126,4 @@ const InputContainer = styled.div`
   // width: 100%;
 `;
 
-export default login;
+export default Login;
