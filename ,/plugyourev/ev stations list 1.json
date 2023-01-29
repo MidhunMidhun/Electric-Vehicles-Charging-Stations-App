@@ -1,0 +1,792 @@
+[
+ {
+   "title": "KSEB Charging Station",
+   "city": "Venganoor",
+   "lat": "8.397485",
+   "long": "77.0016783",
+   "charger_type": "CCS",
+   "ports": 1,
+   "price": 15,
+   "rating": 1
+ },
+ {
+   "title": "EESL Charging Station",
+   "city": "Thycaud",
+   "lat": "8.4922194",
+   "long": "76.9578577",
+   "charger_type": "CCS",
+   "ports": 1,
+   "price": 15,
+   "rating": 2
+ },
+ {
+   "title": "KSEB Charging Station",
+   "city": "Kowdiar",
+   "lat": "8.5118297",
+   "long": "76.9648622",
+   "charger_type": "CCS",
+   "ports": 1,
+   "price": 15,
+   "rating": 1
+ },
+ {
+   "title": "KSEB Charging Station",
+   "city": "Kims Jn",
+   "lat": "8.5132746",
+   "long": "76.9108214",
+   "charger_type": "CCS",
+   "ports": 1,
+   "price": 15,
+   "rating": 1
+ },
+ {
+   "title": "KSEB Charging Station",
+   "city": "Perumkadavila",
+   "lat": "8.4393126",
+   "long": "77.1090936",
+   "charger_type": "Type 2",
+   "ports": 1,
+   "price": 15,
+   "rating": 1
+ },
+ {
+   "title": "KSEB Charging Station",
+   "city": "Kollam",
+   "lat": "8.8846142",
+   "long": "76.5911745",
+   "charger_type": "CCS",
+   "ports": 1,
+   "price": 15,
+   "rating": 1
+ },
+ {
+   "title": "KSEB Charging Station",
+   "city": "Neyyattinkara",
+   "lat": "8.4077692",
+   "long": "77.0821086",
+   "charger_type": "Type 2",
+   "ports": 1,
+   "price": 15,
+   "rating": 1
+ },
+ {
+   "title": "Ather Space - Electric Scooter Experience Center",
+   "city": "Plamoodu",
+   "lat": "8.514473",
+   "long": "76.9458823",
+   "charger_type": "Type 2",
+   "ports": 2,
+   "price": 30,
+   "rating": 4
+ },
+ {
+   "title": "Ebike charging point",
+   "city": "Pechiparai",
+   "lat": "8.4401483",
+   "long": "77.3101496",
+   "charger_type": "CCS",
+   "ports": 1,
+   "price": 40,
+   "rating": 0
+ },
+ {
+   "title": "KSEB Charging Station",
+   "city": "Vadamon",
+   "lat": "8.9547152",
+   "long": "76.9228172",
+   "charger_type": "Type 2",
+   "ports": 1,
+   "price": 15,
+   "rating": 1
+ },
+ {
+   "title": "KSEB Charging Station",
+   "city": "Kottarakkara",
+   "lat": "8.9992718",
+   "long": "76.769142",
+   "charger_type": "Type 2",
+   "ports": 1,
+   "price": 15,
+   "rating": 1
+ },
+ {
+   "title": "TATA Charging Station",
+   "city": "Kollam",
+   "lat": "8.8944406",
+   "long": "76.6064671",
+   "charger_type": "CCS",
+   "ports": 1,
+   "price": 30,
+   "rating": 3
+ },
+ {
+   "title": "Electric Vehicle Charging Station",
+   "city": "Mayyanad",
+   "lat": "8.8613588",
+   "long": "76.6373552",
+   "charger_type": "Type 2",
+   "ports": 1,
+   "price": 15,
+   "rating": 2
+ },
+ {
+   "title": "KSEB Charging Station",
+   "city": "Kundara",
+   "lat": "8.9572495",
+   "long": "76.6713182",
+   "charger_type": "Type 2",
+   "ports": 1,
+   "price": 15,
+   "rating": 1
+ },
+ {
+   "title": "KSEB Charging Station",
+   "city": "Alayamon",
+   "lat": "8.9046909",
+   "long": "76.9317791",
+   "charger_type": "Type 2",
+   "ports": 1,
+   "price": 15,
+   "rating": 1
+ },
+ {
+   "title": "KSEB Charging Station",
+   "city": "Punalur",
+   "lat": "9.0220197",
+   "long": "76.9198591",
+   "charger_type": "Type 2",
+   "ports": 1,
+   "price": 15,
+   "rating": 1
+ },
+ {
+   "title": "Electric Vehicle Charging Station",
+   "city": "Nalanchira",
+   "lat": "8.552674009382143",
+   "long": "76.9430233604824",
+   "charger_type": "Type 2",
+   "ports": 1,
+   "price": 15,
+   "rating": 2
+ },
+ {
+   "title": "KSEB Charging Station",
+   "city": "Oyoor",
+   "lat": "8.8747563",
+   "long": "76.7789277",
+   "charger_type": "Type 2",
+   "ports": 1,
+   "price": 15,
+   "rating": 1
+ },
+ {
+   "title": "KSEB Charging Station",
+   "city": "Mayyanad",
+   "lat": "8.8613764",
+   "long": "76.6373285",
+   "charger_type": "Type 2",
+   "ports": 1,
+   "price": 15,
+   "rating": 1
+ },
+ {
+   "title": "KSEB Charging Station",
+   "city": "Mayyanad",
+   "lat": "8.8511369",
+   "long": "76.6497143",
+   "charger_type": "Type 2",
+   "ports": 1,
+   "price": 15,
+   "rating": 1
+ },
+ {
+   "title": "KSEB Charging Station",
+   "city": "Kottiyam",
+   "lat": "8.8687612",
+   "long": "76.6711575",
+   "charger_type": "Type 2",
+   "ports": 1,
+   "price": 15,
+   "rating": 1
+ },
+ {
+   "title": "KSEB Charging Station",
+   "city": "Bhoothakkulam",
+   "lat": "8.8052884",
+   "long": "76.7009938",
+   "charger_type": "Type 2",
+   "ports": 1,
+   "price": 15,
+   "rating": 1
+ },
+ {
+   "title": "KSEB Charging Station",
+   "city": "Karavaram",
+   "lat": "8.7493638",
+   "long": "76.7981213",
+   "charger_type": "Type 2",
+   "ports": 1,
+   "price": 15,
+   "rating": 1
+ },
+ {
+   "title": "KSEB Charging Station",
+   "city": "Chavarcode",
+   "lat": "8.7872443",
+   "long": "76.7580195",
+   "charger_type": "Type 2",
+   "ports": 1,
+   "price": 15,
+   "rating": 1
+ },
+ {
+   "title": "KSEB Charging Station",
+   "city": "Thenmala",
+   "lat": "8.7550805",
+   "long": "77.0229389",
+   "charger_type": "Type 2",
+   "ports": 1,
+   "price": 15,
+   "rating": 1
+ },
+ {
+   "title": "KSEB Charging Station",
+   "city": "Chemmaruthy",
+   "lat": "8.7378835",
+   "long": "76.7433539",
+   "charger_type": "Type 2",
+   "ports": 1,
+   "price": 15,
+   "rating": 1
+ },
+ {
+   "title": "KSEB Charging Station",
+   "city": "Varkala",
+   "lat": "8.7392914",
+   "long": "76.7236061",
+   "charger_type": "Type 2",
+   "ports": 1,
+   "price": 15,
+   "rating": 1
+ },
+ {
+   "title": "Electric Vehicle Charging Station",
+   "city": "Kunnathukal",
+   "lat": "8.390676",
+   "long": "77.162497",
+   "charger_type": "Type 2",
+   "ports": 1,
+   "price": 15,
+   "rating": 2
+ },
+ {
+   "title": "Electric Vehicle Charging Station",
+   "city": "Kulathummal",
+   "lat": "8.4903094",
+   "long": "77.1255976",
+   "charger_type": "Type 2",
+   "ports": 1,
+   "price": 15,
+   "rating": 2
+ },
+ {
+   "title": "KSEB Charging Station",
+   "city": "Arumanoor",
+   "lat": "8.3431848",
+   "long": "77.0760773",
+   "charger_type": "Type 2",
+   "ports": 1,
+   "price": 15,
+   "rating": 1
+ },
+ {
+   "title": "KSEB Charging Station",
+   "city": "Mudapuram",
+   "lat": "8.6632091",
+   "long": "76.8096608",
+   "charger_type": "Type 2",
+   "ports": 1,
+   "price": 15,
+   "rating": 1
+ },
+ {
+   "title": "KSEB Charging Station",
+   "city": "Amaravila",
+   "lat": "8.3890501",
+   "long": "77.0993692",
+   "charger_type": "Type 2",
+   "ports": 1,
+   "price": 15,
+   "rating": 1
+ },
+ {
+   "title": "KSEB Charging Station",
+   "city": "Karavaloor",
+   "lat": "8.9747537",
+   "long": "76.9247065",
+   "charger_type": "Type 2",
+   "ports": 1,
+   "price": 15,
+   "rating": 1
+ },
+ {
+   "title": "KSEB Charging Station",
+   "city": "Kottamkara",
+   "lat": "8.929856",
+   "long": "76.641953",
+   "charger_type": "Type 2",
+   "ports": 1,
+   "price": 15,
+   "rating": 1
+ },
+ {
+   "title": "KSEB Charging Station",
+   "city": "Adichanalloor",
+   "lat": "8.8797222",
+   "long": "76.7128864",
+   "charger_type": "Type 2",
+   "ports": 1,
+   "price": 15,
+   "rating": 1
+ },
+ {
+   "title": "KSEB Charging Station",
+   "city": "Kollam",
+   "lat": "8.8838447",
+   "long": "76.594096",
+   "charger_type": "Type 2",
+   "ports": 1,
+   "price": 15,
+   "rating": 1
+ },
+ {
+   "title": "KSEB Charging Station",
+   "city": "Kattakkada",
+   "lat": "8.50613",
+   "long": "77.0791267",
+   "charger_type": "Type 2",
+   "ports": 1,
+   "price": 15,
+   "rating": 1
+ },
+ {
+   "title": "KSEB Charging Station",
+   "city": "Paripally",
+   "lat": "8.8060252",
+   "long": "76.7857952",
+   "charger_type": "Type 2",
+   "ports": 1,
+   "price": 15,
+   "rating": 1
+ },
+ {
+   "title": "KSEB Charging Station",
+   "city": "Venjarammoodu",
+   "lat": "8.6717303",
+   "long": "76.9115026",
+   "charger_type": "Type 2",
+   "ports": 1,
+   "price": 15,
+   "rating": 1
+ },
+ {
+   "title": "KSEB Charging Station",
+   "city": "Nellanad",
+   "lat": "8.6893351",
+   "long": "76.9058402",
+   "charger_type": "Type 2",
+   "ports": 1,
+   "price": 15,
+   "rating": 1
+ },
+ {
+   "title": "KSEB Charging Station",
+   "city": "Kallumoodu",
+   "lat": "8.5006537",
+   "long": "76.9181097",
+   "charger_type": "Type 2",
+   "ports": 1,
+   "price": 15,
+   "rating": 1
+ },
+ {
+   "title": "KSEB Charging Station",
+   "city": "Marythamkuzhi",
+   "lat": "8.551361",
+   "long": "76.9894054",
+   "charger_type": "Type 2",
+   "ports": 1,
+   "price": 15,
+   "rating": 1
+ },
+ {
+   "title": "TATA Charging Station",
+   "city": "Ambalathara",
+   "lat": "8.4556481",
+   "long": "76.9457227",
+   "charger_type": "CCS",
+   "ports": 1,
+   "price": 30,
+   "rating": 3
+ },
+ {
+   "title": "OLA Charging Station",
+   "city": "Muttathara",
+   "lat": "8.4680214",
+   "long": "76.9379583",
+   "charger_type": "Type 2,CCS",
+   "ports": 2,
+   "price": 20,
+   "rating": 4
+ },
+ {
+   "title": "KSEB Charging Station",
+   "city": "Pottakuzhi",
+   "lat": "8.51587238945141",
+   "long": "76.9381199083744",
+   "charger_type": "Type 2",
+   "ports": 2,
+   "price": 15,
+   "rating": 1
+ },
+ {
+   "title": "Electric Vehicle Charging Station",
+   "city": "Maranalloor",
+   "lat": "8.4674162",
+   "long": "77.070629",
+   "charger_type": "Type 2",
+   "ports": 1,
+   "price": 15,
+   "rating": 2
+ },
+ {
+   "title": "KSEB Charging Station",
+   "city": "Anad",
+   "lat": "8.6300682",
+   "long": "77.0052914",
+   "charger_type": "Type 2",
+   "ports": 1,
+   "price": 15,
+   "rating": 1
+ },
+ {
+   "title": "Ather Grid Charging Station",
+   "city": "Infosys",
+   "lat": "8.5334441",
+   "long": "76.8805483",
+   "charger_type": "Type 2",
+   "ports": 1,
+   "price": 30,
+   "rating": 4
+ },
+ {
+   "title": "KSEB Charging Station",
+   "city": "Palayam",
+   "lat": "8.5023219",
+   "long": "76.9494385",
+   "charger_type": "Type 2",
+   "ports": 1,
+   "price": 15,
+   "rating": 1
+ },
+ {
+   "title": "Electric Vehicle Charging Station",
+   "city": "Nemom",
+   "lat": "8.4541447",
+   "long": "77.0056952",
+   "charger_type": "Type 2",
+   "ports": 2,
+   "price": 15,
+   "rating": 2
+ },
+ {
+   "title": "KSEB Charging Station",
+   "city": "Chullimanoor",
+   "lat": "8.6410945",
+   "long": "77.021165",
+   "charger_type": "Type 2",
+   "ports": 1,
+   "price": 15,
+   "rating": 1
+ },
+ {
+   "title": "Electric Vehicle Charging Station",
+   "city": "Ooruttambalam",
+   "lat": "8.4570274",
+   "long": "77.0611994",
+   "charger_type": "Type 2",
+   "ports": 1,
+   "price": 15,
+   "rating": 2
+ },
+ {
+   "title": "Tata Power Charging Station",
+   "city": "Kazhakkoottam",
+   "lat": "8.5616617",
+   "long": "76.8765267",
+   "charger_type": "CCS,Type2",
+   "ports": 2,
+   "price": 30,
+   "rating": 3
+ },
+ {
+   "title": "KSEB Charging Station",
+   "city": "Nedumangad",
+   "lat": "8.6073655",
+   "long": "77.0062522",
+   "charger_type": "Type 2",
+   "ports": 1,
+   "price": 15,
+   "rating": 1
+ },
+ {
+   "title": "Popular Hyundai Charging ",
+   "city": "Karakkamandapam",
+   "lat": "8.4650633",
+   "long": "76.9903756",
+   "charger_type": "Type 2",
+   "ports": 1,
+   "price": 30,
+   "rating": 3
+ },
+ {
+   "title": "KSEB Charging Station",
+   "city": "Vattiyoorkavu",
+   "lat": "8.5335193",
+   "long": "76.9912769",
+   "charger_type": "Type 2",
+   "ports": 1,
+   "price": 15,
+   "rating": 1
+ },
+ {
+   "title": "KSEB Charging Station",
+   "city": "Kachani",
+   "lat": "8.5505713",
+   "long": "76.9889642",
+   "charger_type": "Type 2",
+   "ports": 1,
+   "price": 15,
+   "rating": 1
+ },
+ {
+   "title": "KSEB Charging Station",
+   "city": "Nettayam",
+   "lat": "8.542986",
+   "long": "76.9882296",
+   "charger_type": "Type 2",
+   "ports": 1,
+   "price": 15,
+   "rating": 1
+ },
+ {
+   "title": "KSEB Charging Station",
+   "city": "Karakulam",
+   "lat": "8.564144",
+   "long": "76.9857153",
+   "charger_type": "Type 2",
+   "ports": 1,
+   "price": 15,
+   "rating": 1
+ },
+ {
+   "title": "KSEB Charging Station",
+   "city": "Poojappura",
+   "lat": "8.4976314",
+   "long": "76.9829905",
+   "charger_type": "Type 2",
+   "ports": 1,
+   "price": 15,
+   "rating": 1
+ },
+ {
+   "title": "KSEB Charging Station",
+   "city": "Arasummoodu",
+   "lat": "8.5057272",
+   "long": "76.9159397",
+   "charger_type": "Type 2",
+   "ports": 1,
+   "price": 15,
+   "rating": 1
+ },
+ {
+   "title": "KSEB Charging Station",
+   "city": "Vettinadu",
+   "lat": "8.6097386",
+   "long": "76.9403786",
+   "charger_type": "Type 2",
+   "ports": 1,
+   "price": 15,
+   "rating": 1
+ },
+ {
+   "title": "Electric Vehicle Charging Station,KSRTC",
+   "city": "PMG,KSRTC Depot",
+   "lat": "8.5083388",
+   "long": "76.9472347",
+   "charger_type": "CCS,Type2,CHAdeMO",
+   "ports": 5,
+   "price": 20,
+   "rating": 2
+ },
+ {
+   "title": "KSEB Charging Station",
+   "city": "Peroorkada",
+   "lat": "8.5330312",
+   "long": "76.9828581",
+   "charger_type": "Type 2",
+   "ports": 1,
+   "price": 15,
+   "rating": 1
+ },
+ {
+   "title": "KSEB Charging Station",
+   "city": "Sreekaryam",
+   "lat": "8.5462992",
+   "long": "76.9160755",
+   "charger_type": "Type 2",
+   "ports": 1,
+   "price": 15,
+   "rating": 1
+ },
+ {
+   "title": "KSEB Charging Station",
+   "city": "Peroorkada",
+   "lat": "8.5337726",
+   "long": "76.9676305",
+   "charger_type": "Type 2",
+   "ports": 1,
+   "price": 15,
+   "rating": 1
+ },
+ {
+   "title": "KSEB Charging Station",
+   "city": "Kowdiar",
+   "lat": "8.5221694",
+   "long": "76.9599871",
+   "charger_type": "Type 2",
+   "ports": 1,
+   "price": 15,
+   "rating": 1
+ },
+ {
+   "title": "KSEB Charging Station",
+   "city": "Secreteriat",
+   "lat": "8.4979176",
+   "long": "76.9501556",
+   "charger_type": "Type 2",
+   "ports": 1,
+   "price": 15,
+   "rating": 1
+ },
+ {
+   "title": "KSEB Charging Station",
+   "city": "Attakulangara",
+   "lat": "8.4790225",
+   "long": "76.9452039",
+   "charger_type": "Type 2",
+   "ports": 1,
+   "price": 15,
+   "rating": 1
+ },
+ {
+   "title": "Electric Vehicle Charging Station",
+   "city": "law College Jn",
+   "lat": "8.5077608",
+   "long": "76.9449035",
+   "charger_type": "CCS,Type2,CHAdeMO",
+   "ports": 3,
+   "price": 20,
+   "rating": 2
+ },
+ {
+   "title": "ChargeMOD Charging Station",
+   "city": "Sreekaryam",
+   "lat": "8.5605823",
+   "long": "76.9126476",
+   "charger_type": "Type 2",
+   "ports": 2,
+   "price": 30,
+   "rating": 3
+ },
+ {
+   "title": "KSEB Charging Station",
+   "city": "Plangalamukku",
+   "lat": "8.4687215",
+   "long": "77.0012011",
+   "charger_type": "Type 2",
+   "ports": 1,
+   "price": 15,
+   "rating": 1
+ },
+ {
+   "title": "KSEB Charging Station",
+   "city": "Balaramapuram",
+   "lat": "8.4153757",
+   "long": "77.0414211",
+   "charger_type": "Type 2",
+   "ports": 1,
+   "price": 15,
+   "rating": 1
+ },
+ {
+   "title": "KSEB Charging Station",
+   "city": "Mukkolakkal",
+   "lat": "8.5637167",
+   "long": "76.953509",
+   "charger_type": "Type 2",
+   "ports": 1,
+   "price": 15,
+   "rating": 1
+ },
+ {
+   "title": "Electric Vehicle Charging Station",
+   "city": "Kottamugal",
+   "lat": "8.5526381",
+   "long": "76.9430364",
+   "charger_type": "Type 2",
+   "ports": 1,
+   "price": 15,
+   "rating": 2
+ },
+ {
+   "title": "KSEB Charging Station",
+   "city": "Museum JN",
+   "lat": "8.5083153",
+   "long": "76.9565051",
+   "charger_type": "Type 2",
+   "ports": 1,
+   "price": 15,
+   "rating": 1
+ },
+ {
+   "title": "Electric Vehicle Charging Station",
+   "city": "East fort",
+   "lat": "8.4826636",
+   "long": "76.9481936",
+   "charger_type": "Type 2",
+   "ports": 3,
+   "price": 15,
+   "rating": 2
+ },
+ {
+   "title": "Electric Vehicle Charging Station",
+   "city": "Sanghumugam",
+   "lat": "8.4810515",
+   "long": "76.9126218",
+   "charger_type": "CCS,Type2,CHAdeMO",
+   "ports": 3,
+   "price": 15,
+   "rating": 2
+ },
+ {
+   "title": "KSEB Charging Station",
+   "city": "Nemom",
+   "lat": "8.4538706",
+   "long": "77.0040767",
+   "charger_type": "CCS",
+   "ports": 2,
+   "price": 15,
+   "rating": 1
+ }
+]
